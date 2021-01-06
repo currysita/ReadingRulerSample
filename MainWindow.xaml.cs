@@ -52,6 +52,11 @@ namespace ReadingRulerSample
 
             //タスクトレイアイコンのクリックイベントハンドラを登録する
             _notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(_notifyIcon_MouseClick);
+
+            //見た目を整える
+            this.Opacity = 0.7;
+            var brush = new SolidColorBrush(Color.FromRgb(0xFF,0xFF,0x88));
+            this.Background = brush;
         }
 
         /// <summary>
@@ -68,6 +73,7 @@ namespace ReadingRulerSample
             }
             catch { }
         }
+
         /// <summary>
         /// 
         /// </summary>
