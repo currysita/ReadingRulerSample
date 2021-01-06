@@ -22,7 +22,7 @@ namespace ReadingRulerSample
     public partial class MainWindow : Window
     {
         /// <summary>
-        /// タスクトレイの
+        /// タスクトレイのアイコン
         /// </summary>
         private System.Windows.Forms.NotifyIcon _notifyIcon;
 
@@ -75,7 +75,7 @@ namespace ReadingRulerSample
         }
 
         /// <summary>
-        /// 
+        /// タスクトレイアイコンのクリックのイベントハンドラ
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
