@@ -76,6 +76,8 @@ namespace ReadingRulerSample
             this.Opacity = 0.7;
             var brush = new SolidColorBrush(Color.FromRgb(0xFF,0xFF,0x88));
             this.Background = brush;
+            //大きさを変更できるように
+            this.ResizeMode = ResizeMode.CanResizeWithGrip;
             //マウスイベントの定義
             this.MouseDown += new System.Windows.Input.MouseButtonEventHandler(Window_MouseDown);
         }
