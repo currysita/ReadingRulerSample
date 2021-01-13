@@ -7,5 +7,8 @@
         mc:Ignorable="d"
         WindowStyle="None"
         AllowsTransparency="true"
-        Title="MainWindow" Height="450" Width="800">
+        ShowInTaskbar="False"
+        Title="MainWindow" 
+        Height="450" 
+        Width="800">
 </Window>
