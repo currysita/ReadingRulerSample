@@ -73,7 +73,7 @@ namespace ReadingRulerSample
             _notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(_notifyIcon_MouseClick);
 
             //見た目を整える
-            this.Opacity = 0.7;
+            this.Opacity = 0.6;
             var brush = new SolidColorBrush(Color.FromRgb(0xFF,0xFF,0x88));
             this.Background = brush;
             //大きさを変更できるように
